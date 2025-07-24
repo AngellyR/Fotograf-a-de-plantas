@@ -1,0 +1,9 @@
+# Required libraries 
+torch
+torchvision
+pandas
+matplotlib
+scikit-learn
+requests
+Pillow
+beautifulsoup4
